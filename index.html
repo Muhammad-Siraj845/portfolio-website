@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p className='md:text-xl'>I m Muhammad Siraj, a dedicated Frontend Developer and passionate UI/UX Designer who thrives on crafting intuitive and visually engaging digital experiences. With a strong foundation in frontend technologies and a keen eye for design, I specialize in building clean, responsive interfaces that balance form and function.</p>
+          <br />
+          <p className='md:text-xl'>My journey in web development is driven by a love for learning and the constant pursuit of improvement. Beyond coding, I m always exploring new design trends and techniques to keep my work both innovative and impactful.</p>
+        </div>   </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+           
+            <a href="https://hackathon-3-six.vercel.app/"> <h3>Project 1</h3></a>
+            <p>A Furniture website</p>
+        </div>
+        <div class="project">
+            <a href="https://downladable-resume-builder.vercel.app/"><h3>Project 2</h3></a>
+            <p>Resume Builder</p>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+</body>
+</html>
